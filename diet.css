@@ -1,0 +1,150 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #c9daec;
+}
+/* top text */
+.diet-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 30px;
+    padding: 10px;
+   font-style: italic;
+   font-family: sans-serif;
+}
+/* hero images */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between the images */
+    margin-top: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.hero-img img {
+    width: 600px; /* Set equal width */
+    height: 300px; /* Set equal height */
+    border-radius: 6px;
+    margin-bottom: 10px;
+   
+}
+/* diet plan section */
+.diet-result  p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.diet-result .diet-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.diet-images img {
+    border-radius: 6px;
+    width: 45%; /* adjust the width to fit two images side by side */
+    height: 550px;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin: 10px; /* add margin to separate the images */
+}
+/* water sunlight and exercise  */
+.general-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px; /* Space between images */
+    margin-top: 0;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+  }
+  
+  .general-item {
+    text-align: center;
+    width: 250px; /* Set width to ensure equal size */
+    min-height: 300px; /* Set minimum height to ensure text is visible */
+     /* Make shape round */
+    overflow: hidden; /* Hide excess image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .general-item img {
+    width: 100%; /* Make image fit fully in container */
+    height: 80%; /* Make image fit fully in container */
+    object-fit: cover; /* Ensure image is fully covered */
+    border-radius: 50%; /* Make image round */
+  }
+  
+  .general-item p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px; /* Add space between image and text */
+    z-index: 1; /* Display text on top of image */
+  }
+
+
+
+
+
+
+/* text-section */
+.text-section {
+    margin-top: 2px; /* Remove any margin on top */
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start of the flex container */
+    flex-direction: column; /* Stacks items vertically */
+}
+
+.text-section p {
+    font-size: 20px;
+    color: #181718;
+    font-family: serif;
+    font-style: italic;
+    margin: 2px; /* Remove default margin to ensure tight spacing */
+}
+
+.text-section .allergy {
+    color: red;
+}
+/* button */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.home-btn {
+    width: 300px;
+    height: 47px;
+    background: #0056b3;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 20px 20px;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .home-btn:hover {
+    background: #3cb4be;
+    border-color: #0056b3;
+ }
